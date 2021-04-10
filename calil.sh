@@ -16,13 +16,13 @@ source env/bin/activate
 
 env/bin/genpac \
 	--format pac \
-	--pac-proxy "SOCKS5 127.0.0.1:1080" \
+	--pac-proxy "SOCKS5 127.0.0.1:1081" \
 	--pac-precise \
 	--gfwlist-url - \
 	--gfwlist-local gfwlist/gfwlist.txt \
 	--user-rule-from user-rule.txt \
-	-o gfwlist.pac
-sed -e '5d' -e '3d' -i gfwlist.pac
+	-o gfwlist_1081.pac
+sed -e '5d' -e '3d' -i gfwlist_1081.pac
 deactivate
 
 git add .
