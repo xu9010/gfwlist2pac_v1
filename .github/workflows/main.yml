@@ -9,7 +9,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: '0 21 * * *'
+    - cron: '45 20 * * *'
 
 jobs:
   build:
@@ -28,8 +28,8 @@ jobs:
         pip install virtualenv
     - name: Set User
       run: |
-        git config --global user.email zym013579@gmail.com
-        git config --global user.name zym013579
+        git config --global user.email xu9010@gmail.com
+        git config --global user.name xu9010
     - name: Run sh
       run: bash ./calil.sh
     
