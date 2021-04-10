@@ -3,4 +3,4 @@
 
 用户规则：user-rule.txt
 
-https://raw.githubusercontent.com/xu9010/gfwlist2pac/master/gfwlist.pac
+https://raw.githubusercontent.com/xu9010/gfwlist2pac/master/gfwlist1081.pac
