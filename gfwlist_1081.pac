@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2021-07-06 13:48:56
+ * GFWList Last-Modified: 2021-07-15 15:16:42
  */
 
 var proxy = 'SOCKS5 127.0.0.1:1081';
@@ -1116,6 +1116,7 @@ var rules = [
             "^http://atchinese\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?atlaspost\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?atdmt\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?atlanta168\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?atnext\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?av\\.movie",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?avaaz\\.org",
@@ -4148,7 +4149,7 @@ var rules = [
             "*.atchinese.com*",
             "*atgfw.org*",
             "*.atlaspost.com*",
-            "*.atlanta168.com/forum*",
+            "*.atlanta168.com*",
             "*.atnext.com*",
             "*ice.audionow.com*",
             "*.av.com*",
