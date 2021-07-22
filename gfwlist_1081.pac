@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2021-07-15 15:16:42
+ * GFWList Last-Modified: 2021-07-22 15:36:44
  */
 
 var proxy = 'SOCKS5 127.0.0.1:1081';
@@ -805,6 +805,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tfhub\\.dev",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?thinkwithgoogle\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tiltbrush\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?translate\\.google",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tv\\.google",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?urchin\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?waveprotocol\\.org",
@@ -1181,6 +1182,7 @@ var rules = [
             "^http://billypan\\.com/wiki",
             "^http://bit\\.do",
             "^http://bit\\.ly",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?bitchute\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?bitcointalk\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?bitshare\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?bitvise\\.com",
