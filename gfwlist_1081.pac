@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2021-08-11 17:07:10
+ * GFWList Last-Modified: 2021-08-27 15:33:15
  */
 
 var proxy = 'SOCKS5 127.0.0.1:1081';
@@ -2639,6 +2639,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?poloniex\\.com",
             "^http://polymerhk\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?popvote\\.hk",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?popxi\\.click",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?popyard\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?pornhd\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?pornhub\\.com",
