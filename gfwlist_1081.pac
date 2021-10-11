@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2021-10-08 17:38:06
+ * GFWList Last-Modified: 2021-10-11 17:05:03
  */
 
 var proxy = 'SOCKS5 127.0.0.1:1081';
@@ -1994,6 +1994,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?hoover\\.org",
             "^http://hopedialogue\\.org",
             "^http://hornytrip\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?horrorporn\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?hotair\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?hotspotshield\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?hottg\\.com",
