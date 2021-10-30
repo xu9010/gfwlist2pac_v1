@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2021-10-25 00:03:30
+ * GFWList Last-Modified: 2021-10-30 03:30:32
  */
 
 var proxy = 'SOCKS5 127.0.0.1:1081';
@@ -3079,6 +3079,7 @@ var rules = [
             "^http://thegioitinhoc\\.vn/",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?thehun\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?theinitium\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?themoviedb\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?thenewslens\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?thepiratebay\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?theporndude\\.com",
@@ -3088,6 +3089,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?thestandnews\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?thetibetpost\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?thetinhat\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?thetvdb\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?thewgo\\.org",
             "^http://theync\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?thinkingtaiwan\\.com",
