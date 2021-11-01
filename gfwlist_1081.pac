@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2021-10-30 03:30:32
+ * GFWList Last-Modified: 2021-11-01 16:10:37
  */
 
 var proxy = 'SOCKS5 127.0.0.1:1081';
@@ -53,7 +53,6 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?matsu-nsa\\.gov\\.tw",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?matsucc\\.gov\\.tw",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?moe\\.gov\\.tw",
-            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?mvdis\\.gov\\.tw",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?nankan\\.gov\\.tw",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?ncree\\.gov\\.tw",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?necoast-nsa\\.gov\\.tw",
@@ -609,6 +608,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?livecoin\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?localbitcoins\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?mercatox\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?oanda\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?oex\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?okex\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?otcbtc\\.com",
@@ -925,8 +925,16 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?ja\\.wikipedia\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?wikipedia\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?data\\.flurry\\.com",
-            "^https://tw\\.bid\\.yahoo\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?page\\.bid\\.yahoo\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tw\\.bid\\.yahoo\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?auctions\\.yahoo\\.co\\.jp",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?blogs\\.yahoo\\.co\\.jp",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?search\\.yahoo\\.co\\.jp",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?buy\\.yahoo\\.com\\.tw",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?hk\\.yahoo\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?hk\\.knowledge\\.yahoo\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tw\\.money\\.yahoo\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?hk\\.myblog\\.yahoo\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?hk\\.news\\.yahoo\\.com",
             "^https://tw\\.answers\\.yahoo\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tw\\.knowledge\\.yahoo\\.com",
@@ -3604,6 +3612,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?yyii\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?yyjlymb\\.xyz",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?yzzk\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?z-lib\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?zalmos\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?zannel\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?zaobao\\.com",
@@ -3966,14 +3975,6 @@ var rules = [
             "*zh.pttpedia.wikia.com/wiki/%E7%BF%92%E5%8C%85%E5%AD%90%E4%B9%8B%E4%BA%82*",
             "*cn.uncyclopedia.wikia.com*",
             "*zh.uncyclopedia.wikia.com*",
-            "*page.bid.yahoo.com*",
-            "*tw.bid.yahoo.com*",
-            "*blogs.yahoo.co.jp*",
-            "*buy.yahoo.com.tw/gdsale*",
-            "*hk.yahoo.com*",
-            "*hk.knowledge.yahoo.com*",
-            "*tw.money.yahoo.com*",
-            "*hk.myblog.yahoo.com*",
             "*news.yahoo.com/china-blocks-bbc*",
             "*hk.rd.yahoo.com*",
             "*hk.search.yahoo.com/search*",
