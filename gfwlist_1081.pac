@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2021-12-20 18:03:28
+ * GFWList Last-Modified: 2021-12-26 16:08:25
  */
 
 var proxy = 'SOCKS5 127.0.0.1:1081';
@@ -616,6 +616,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?paxful\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?rightbtc\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?topbtc\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tronscan\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?xbtce\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?yobit\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?zb\\.com",
@@ -846,7 +847,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?nytimg\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?nytstyle\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?steamcommunity\\.com",
-            "^http://store\\.steampowered\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?store\\.steampowered\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?t\\.me",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?updates\\.tdesktop\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?telegram\\.dog",
@@ -1226,10 +1227,11 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?bloodshed\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?assets\\.bwbx\\.io",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?bloomfortune\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?blubrry\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?bnews\\.co",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?bnrmetal\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?boardreader\\.com",
-            "^http://bod\\.asia",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?bod\\.asia",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?bolehvpn\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?boobstagram\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?book\\.com\\.tw",
@@ -2725,6 +2727,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?psiphon3\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?pt\\.im",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?ptt\\.cc",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?pttgame\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?pullfolio\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?pureconcepts\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?pureinsight\\.org",
@@ -3124,7 +3127,10 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tibet-initiative\\.de",
             "^http://tibet3rdpole\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tibetaction\\.net",
-            "^http://tibetanbuddhistinstitute\\.org",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tibetanbuddhistinstitute\\.org",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tibetancommunity\\.org",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tibetanentrepreneurs\\.org",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tibetanhealth\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tibetanliberation\\.org",
             "^http://tibetancommunityuk\\.net",
             "^http://tibetansports\\.org",
@@ -6600,7 +6606,6 @@ var rules = [
             "*tibetan-alliance.org*",
             "*.tibetanarts.org*",
             "*.tibetanbuddhistinstitute.org*",
-            "*tibetancommunity.org*",
             "*.tibetanjournal.com*",
             "*.tibetanlanguage.org*",
             "*.tibetanliberation.org*",
