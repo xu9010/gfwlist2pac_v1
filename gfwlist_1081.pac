@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2021-12-26 16:08:25
+ * GFWList Last-Modified: 2021-12-29 15:31:35
  */
 
 var proxy = 'SOCKS5 127.0.0.1:1081';
@@ -615,6 +615,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?otcbtc\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?paxful\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?rightbtc\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?solv\\.finance",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?topbtc\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tronscan\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?xbtce\\.com",
@@ -1679,6 +1680,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?falunworld\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?fanglizhi\\.info",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?fangong\\.org",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?fanhaolou\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?fanqianghou\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?fanqiangzhe\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?fantv\\.hk",
@@ -1846,6 +1848,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?globalrescue\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?globalvoicesonline\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?globalvpn\\.net",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?gmgard\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?gmhz\\.org",
             "^http://www\\.gmiddle\\.com",
             "^http://www\\.gmiddle\\.net",
@@ -2139,6 +2142,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?israbox\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?issuu\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?oversea\\.istarshine\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?isupportuyghurs\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?itaboo\\.info",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?itshidden\\.com",
             "^http://itweet\\.net",
@@ -2227,6 +2231,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?kqes\\.net",
             "^http://gojet\\.krtco\\.com\\.tw",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?ktzhk\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?kukuku\\.uk",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?kurtmunger\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?kwcg\\.ca",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?kwok7\\.com",
@@ -3136,7 +3141,10 @@ var rules = [
             "^http://tibetansports\\.org",
             "^http://tibetanwomen\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tibetanyouthcongress\\.org",
-            "^http://tibetexpress\\.net",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tibetcorps\\.org",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tibetexpress\\.net",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tibetfocus\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tibetfund\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tibetgermany\\.de",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tibethouse\\.jp",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?tibethouse\\.org",
@@ -3349,6 +3357,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?utopianpal\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?uvwxyz\\.xyz",
             "^http://uyghur-j\\.org",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?uyghuraa\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?uyghuramerican\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?uyghurbiz\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?uyghurcongress\\.org",
@@ -5085,7 +5094,6 @@ var rules = [
             "*.globalvoicesonline.org*",
             "*.glock.com*",
             "*gluckman.com/DalaiLama*",
-            "*gmbd.cn*",
             "*.gmll.org*",
             "*go-pki.com*",
             "*gobet.cc*",
@@ -6625,10 +6633,6 @@ var rules = [
             "*tibetcharity.in*",
             "*.tibetchild.org*",
             "*.tibetcity.com*",
-            "*.tibetcorps.org*",
-            "*.tibetexpress.net*",
-            "*tibetfocus.com*",
-            "*tibetfund.org*",
             "*.tibetgermany.com*",
             "*.tibethaus.com*",
             "*.tibetheritagefund.org*",
