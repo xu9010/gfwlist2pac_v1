@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2022-01-28 14:16:48
+ * GFWList Last-Modified: 2022-01-29 02:25:08
  */
 
 var proxy = 'SOCKS5 127.0.0.1:1081';
@@ -1509,6 +1509,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?dalianmeng\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?daliulian\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?danke4china\\.net",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?darrenliuwei\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?dastrassi\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?daum\\.net",
             "^http://david-kilgour\\.com",
@@ -2977,6 +2978,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?sohfrance\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?somee\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?songjianjun\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?nakedsecurity\\.sophos\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?sos\\.org",
             "^http://soubory\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?soulcaliburhentai\\.net",
@@ -4685,9 +4687,7 @@ var rules = [
             "*dalianmeng.org*",
             "*.daliulian.org*",
             "*.danke4china.net*",
-            "*.danwei.org*",
             "*daolan.net*",
-            "*.daozhongxing.org*",
             "*darktoy.net*",
             "*.david-kilgour.com*",
             "*daxa.cn*",
