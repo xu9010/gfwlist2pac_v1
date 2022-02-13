@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2022-01-29 02:25:08
+ * GFWList Last-Modified: 2022-02-13 15:17:05
  */
 
 var proxy = 'SOCKS5 127.0.0.1:1081';
@@ -997,6 +997,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?6parker\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?6parknews\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?7capture\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?7-zip\\.org",
             "^http://8-d\\.com",
             "^http://85cc\\.us",
             "^http://85st\\.com",
