@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2022-07-17 01:18:24
+ * GFWList Last-Modified: 2022-08-14 16:21:11
  */
 
 var proxy = 'SOCKS5 127.0.0.1:1081';
@@ -1825,6 +1825,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?gamer\\.com\\.tw",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?gamez\\.com\\.tw",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?gaoming\\.net",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?ganjingworld\\.com",
             "^http://gaopi\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?gardennetworks\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?gartlive\\.com",
@@ -2767,6 +2768,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?privoxy\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?procopytips\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?project-syndicate\\.org",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?proton\\.me",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?prosiben\\.de",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?proxomitron\\.info",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?proxpn\\.com",
@@ -4227,7 +4229,6 @@ var rules = [
             "*angelfire.com/hi/hayashi*",
             "*animecrazy.net*",
             "*aniscartujo.com*",
-            "*anonymise.us*",
             "*.anonymitynetwork.com*",
             "*.anonymizer.com*",
             "*.anonymouse.org*",
