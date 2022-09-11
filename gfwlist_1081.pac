@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2022-08-16 15:38:52
+ * GFWList Last-Modified: 2022-09-11 16:01:04
  */
 
 var proxy = 'SOCKS5 127.0.0.1:1081';
@@ -1229,6 +1229,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?blackvpn\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?blinkx\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?blip\\.tv/",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?blockcast\\.it",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?blockcn\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?blockedbyhk\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?blockless\\.com",
@@ -1470,6 +1471,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?crchina\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?creaders\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?cristyli\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?croxyproxy\\.com",
             "^http://crocotube\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?crossthewall\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?crossvpn\\.net",
@@ -1637,6 +1639,7 @@ var rules = [
             "^http://emulefans\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?encrypt\\.me",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?enewstree\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?chinese\\.engadget\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?engagedaily\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?englishfromengland\\.co\\.uk",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?entermap\\.com",
@@ -2311,6 +2314,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?liangyou\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?liaowangxizang\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?liberal\\.org\\.hk",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?libredd\\.it",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?line\\.me",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?line-apps\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?lingvodics\\.com",
@@ -2594,6 +2598,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?ohmyrss\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?ok\\.ru",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?okayfreedom\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?okk\\.tw",
             "^http://filmy\\.olabloga\\.pl/player",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?olevod\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?olumpo\\.com",
@@ -3079,6 +3084,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?strongvpn\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?studentsforafreetibet\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?stumbleupon\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?substack\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?sugarsync\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?sugumiru18\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?suissl\\.com",
@@ -3454,6 +3460,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?virtualrealporn\\.com",
             "^http://ny\\.visiontimes\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?viu\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?vivaldi\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?vivthomas\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?vjav\\.com",
             "^http://vllcs\\.org",
@@ -4862,7 +4869,6 @@ var rules = [
             "*.emuparadise.me*",
             "*.enanyang.my*",
             "*.enfal.de*",
-            "*chinese.engadget.com*",
             "*englishforeveryone.org*",
             "*englishpen.org*",
             "*.enlighten.org.tw*",
@@ -5637,7 +5643,6 @@ var rules = [
             "*.liaowangxizang.net*",
             "*.libertytimes.com.tw*",
             "*blogs.libraryinformationtechnology.com/jxyz*",
-            "*.lidecheng.com/blog/fucking-gfw*",
             "*.lighten.org.tw*",
             "*.lightnovel.cn*",
             "*limiao.net*",
@@ -5983,7 +5988,6 @@ var rules = [
             "*oizoblog.com*",
             "*.ok.ru*",
             "*.okayfreedom.com*",
-            "*okk.tw*",
             "*old-cat.net*",
             "*.olympicwatch.org*",
             "*omgili.com*",
