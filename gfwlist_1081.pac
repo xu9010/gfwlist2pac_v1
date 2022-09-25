@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2022-09-11 16:01:04
+ * GFWList Last-Modified: 2022-09-25 04:33:42
  */
 
 var proxy = 'SOCKS5 127.0.0.1:1081';
@@ -2683,6 +2683,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?blog\\.pentalogic\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?peoplenews\\.tw",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?peopo\\.org",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?perfect-privacy\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?phayul\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?phncdn\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?photodharma\\.net",
@@ -6080,10 +6081,8 @@ var rules = [
             "*.peopo.org*",
             "*.percy.in*",
             "*.perfectgirls.net*",
-            "*perfectvpn.net*",
             "*.persecutionblog.com*",
             "*.persiankitty.com*",
-            "*pfd.org.hk*",
             "*phapluan.org*",
             "*.phayul.com*",
             "*philborges.com*",
