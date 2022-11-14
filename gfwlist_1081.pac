@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2022-11-05 19:00:57
+ * GFWList Last-Modified: 2022-11-14 05:20:44
  */
 
 var proxy = 'SOCKS5 127.0.0.1:1081';
@@ -1283,11 +1283,12 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?brookings\\.edu",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?brutaltgp\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?bt95\\.com",
-            "^http://btdigg\\.org",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?btdig\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?btdigg\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?btku\\.me",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?btku\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?budaedu\\.org",
-            "^http://buffered\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?buffered\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?bullguard\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?bullog\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?bullogger\\.com",
@@ -2624,6 +2625,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?opendemocracy\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?openid\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?openleaks\\.org",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?openstreetmap\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?opentech\\.fund",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?openvpn\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?openwebster\\.com",
@@ -4454,8 +4456,6 @@ var rules = [
             "*.btsynckeys.com*",
             "*.budaedu.org*",
             "*.buddhanet.com.tw/zfrop/tibet*",
-            "*.buddhistchannel.tv*",
-            "*.buffered.com*",
             "*.bullog.org*",
             "*.bullogger.com*",
             "*.busayari.com*",
