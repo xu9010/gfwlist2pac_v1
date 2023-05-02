@@ -23,6 +23,17 @@ env/bin/genpac \
 	--user-rule-from user-rule.txt \
 	-o gfwlist_1081.pac
 sed -e '5d' -e '3d' -i gfwlist_1081.pac
+
+env/bin/genpac \
+	--format pac \
+	--pac-proxy "SOCKS5 127.0.0.1:7890" \
+	--pac-precise \
+	--gfwlist-url - \
+	--gfwlist-local gfwlist/gfwlist.txt \
+	--user-rule-from user-rule.txt \
+	-o gfwlist_7890.pac
+sed -e '5d' -e '3d' -i gfwlist_7890.pac
+
 deactivate
 
 git add .
