@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2023-07-23 17:13:01
+ * GFWList Last-Modified: 2023-09-09 04:06:49
  */
 
 var proxy = 'SOCKS5 127.0.0.1:7890';
@@ -1892,6 +1892,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?gnews\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?goagent\\.biz",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?goagentplus\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?godaddy\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?godfootsteps\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?gofundme\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?gohappy\\.com\\.tw",
