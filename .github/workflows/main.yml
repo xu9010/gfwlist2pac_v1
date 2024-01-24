@@ -10,6 +10,14 @@ on:
     branches: [ master ]
   schedule:
     - cron: '45 20 * * *'
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario tags'
 
 jobs:
   build:
