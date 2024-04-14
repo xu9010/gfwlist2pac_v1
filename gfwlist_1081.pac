@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2024-03-28 18:51:38
+ * GFWList Last-Modified: 2024-04-14 14:56:29
  */
 
 var proxy = 'SOCKS5 127.0.0.1:1081';
@@ -2125,6 +2125,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?iblogserv-f\\.net",
             "^http://cn\\.ibtimes\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?ibvpn\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?icedrive\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?icij\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?icl-fi\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?icoco\\.com",
@@ -2934,6 +2935,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?rolfoundation\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?rolia\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?rolsociety\\.org",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?rou\\.video",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?rsf\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?rsf-chinese\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?rsshub\\.app",
@@ -5453,7 +5455,6 @@ var rules = [
             "*ibros.org*",
             "*.ibvpn.com*",
             "*icams.com*",
-            "*blogs.icerocket.com/tag*",
             "*.icij.org*",
             "*.icoco.com*",
             "*w.idaiwan.com/forum*",
