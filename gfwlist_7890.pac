@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2024-05-30 05:40:24
+ * GFWList Last-Modified: 2024-06-01 15:27:48
  */
 
 var proxy = 'SOCKS5 127.0.0.1:7890';
@@ -2864,6 +2864,8 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?pximg\\.net",
             "^http://python\\.com\\.tw",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?qanote\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?qbittorrent\\.org",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?qgirl\\.com\\.tw",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?qianbai\\.tw",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?qiandao\\.today",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?qiangwaikan\\.com",
@@ -6253,7 +6255,6 @@ var rules = [
             "*pythonhackers.com/p*",
             "*ss.pythonic.life/*",
             "*.qanote.com*",
-            "*.qgirl.com.tw*",
             "*.qi-gong.me*",
             "*.qidian.ca*",
             "*.qienkuen.org*",
