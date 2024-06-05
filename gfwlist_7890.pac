@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2024-06-03 17:32:45
+ * GFWList Last-Modified: 2024-06-05 16:48:37
  */
 
 var proxy = 'SOCKS5 127.0.0.1:7890';
@@ -1124,6 +1124,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?apkmonk\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?apkplz\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?apkpure\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?apkpure\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?appbrain\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?appledaily\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?appledaily\\.com\\.hk",
@@ -1563,6 +1564,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?deviantart\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?devio\\.us",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?devpn\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?devv\\.ai",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?dfas\\.mil",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?diaoyuislands\\.org",
             "^http://digiland\\.tw/",
@@ -4344,7 +4346,6 @@ var rules = [
             "*.apetube.com*",
             "*.apigee.com*",
             "*.apkmonk.com/app*",
-            "*apkpure.com*",
             "*.aplusvpn.com*",
             "*.appdownloader.net/Android*",
             "*.appledaily.com*",
