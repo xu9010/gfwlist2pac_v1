@@ -14,7 +14,12 @@ virtualenv env
 source env/bin/activate
 # (cd genpac;python setup.py install)
 (cd genpac;pip install .)
-
+echo pwd:
+pwd
+echo ls .:
+ls .
+echo ls ..:
+ls ..
 env/bin/genpac \
 	--format pac \
 	--pac-proxy "SOCKS5 127.0.0.1:1081" \
