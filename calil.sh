@@ -12,8 +12,8 @@ done
 rm -rf env
 virtualenv env
 source env/bin/activate
-# (cd genpac;python setup.py install) # 旧版genpac安装
-# (cd genpac;pip install .) # 新版genpac安装
+# (cd genpac;python setup.py install) # 旧版genpac本地安装
+# (cd genpac;pip install .) # 新版genpac本地安装
 pip install genpac==2.1.0 # 3.0rc1无法生成gfwlist
 
 env/bin/genpac \
@@ -25,7 +25,7 @@ env/bin/genpac \
 	--user-rule-from user-rule.txt \
 	-o gfwlist_1081.pac
 # sed -e '3d' -i gfwlist_1081.pac
-# sed -e '5d' -e '3d' -i gfwlist_1081.pac
+sed -e '5d' -e '3d' -i gfwlist_1081.pac # 删除带无用日期的注释
 
 env/bin/genpac \
 	--format pac \
@@ -35,8 +35,8 @@ env/bin/genpac \
 	--gfwlist-local gfwlist/gfwlist.txt \
 	--user-rule-from user-rule.txt \
 	-o gfwlist_7890.pac
-sed -e '3d' -i gfwlist_7890.pac
-# sed -e '5d' -e '3d' -i gfwlist_7890.pac
+# sed -e '3d' -i gfwlist_7890.pac
+sed -e '5d' -e '3d' -i gfwlist_7890.pac # 删除带无用日期的注释
 
 deactivate
 
