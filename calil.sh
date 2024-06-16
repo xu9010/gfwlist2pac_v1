@@ -14,20 +14,16 @@ virtualenv env
 source env/bin/activate
 # (cd genpac;python setup.py install)
 (cd genpac;pip install .)
-echo pwd:
-pwd
-echo ls .:
-ls .
-echo ls ..:
-ls ..
+
 env/bin/genpac \
 	--format pac \
 	--pac-proxy "SOCKS5 127.0.0.1:1081" \
 	--pac-precise \
 	--gfwlist-url - \
-	--gfwlist-local ../gfwlist/gfwlist.txt \
+	--gfwlist-local gfwlist/gfwlist.txt \
 	--user-rule-from user-rule.txt \
 	-o gfwlist_1081.pac
+sed -e '3d' -i gfwlist_1081.pac
 # sed -e '5d' -e '3d' -i gfwlist_1081.pac
 
 env/bin/genpac \
@@ -35,9 +31,10 @@ env/bin/genpac \
 	--pac-proxy "SOCKS5 127.0.0.1:7890" \
 	--pac-precise \
 	--gfwlist-url - \
-	--gfwlist-local ../gfwlist/gfwlist.txt \
+	--gfwlist-local gfwlist/gfwlist.txt \
 	--user-rule-from user-rule.txt \
 	-o gfwlist_7890.pac
+sed -e '3d' -i gfwlist_7890.pac
 # sed -e '5d' -e '3d' -i gfwlist_7890.pac
 
 deactivate
