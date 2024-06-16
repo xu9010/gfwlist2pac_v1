@@ -45,4 +45,4 @@ deactivate
 
 git add .
 git commit -m "[$(LANG=C date)]auto update"
-git push origin master
+git push -f origin master
