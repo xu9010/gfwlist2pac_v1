@@ -12,8 +12,9 @@ done
 rm -rf env
 virtualenv env
 source env/bin/activate
-# (cd genpac;python setup.py install)
-(cd genpac;pip install .)
+# (cd genpac;python setup.py install) # 旧版genpac安装
+# (cd genpac;pip install .) # 新版genpac安装
+pip install genpac==2.1.0
 
 env/bin/genpac \
 	--format pac \
