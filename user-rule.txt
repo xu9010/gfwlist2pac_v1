@@ -7,5 +7,6 @@ files.pythonhosted.org
 repo.anaconda.com
 gitlab.com
 
+cnbeta.com.tw
 ! 不稳定
 github.com
