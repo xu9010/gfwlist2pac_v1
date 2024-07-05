@@ -15,6 +15,7 @@ var rules = [
             "*files.pythonhosted.org*",
             "*repo.anaconda.com*",
             "*gitlab.com*",
+            "*cnbeta.com.tw*",
             "*github.com*"
         ]
     ],
