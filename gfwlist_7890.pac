@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2024-07-20 17:42:41
+ * GFWList Last-Modified: 2024-07-29 00:49:46
  */
 
 var proxy = 'SOCKS5 127.0.0.1:7890';
@@ -1181,6 +1181,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?avoision\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?axios\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?axureformac\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?azirevpn\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?boxun.*\\.azurewebsites\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?b-ok\\.cc",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?babylonbee\\.com",
@@ -1454,6 +1455,8 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?cloudflare-ipfs\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?club1069\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?clubhouseapi\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?cmegroup\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?cmi\\.org\\.tw",
             "^http://www\\.cmoinc\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?cmule\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?cmule\\.org",
@@ -2169,6 +2172,8 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?imgchili\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?imagefap\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?imageflea\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?imageglass\\.org",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?imageshack\\.us",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?imagevenue\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?imagezilla\\.net",
             "^http://imb\\.org",
@@ -4734,7 +4739,6 @@ var rules = [
             "*clearwisdom.net*",
             "*.clipfish.de*",
             "*cloakpoint.com*",
-            "*cmi.org.tw*",
             "*cmp.hku.hk*",
             "*hkupop.hku.hk*",
             "*.cn6.eu*",
@@ -5506,7 +5510,6 @@ var rules = [
             "*.ikstar.com*",
             "*.imageab.com*",
             "*.imagefap.com*",
-            "*imageshack.us*",
             "*.imb.org*",
             "*.imdb.com/title/tt0819354*",
             "*.imdb.com/title/tt1540068*",
