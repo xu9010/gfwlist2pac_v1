@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2024-08-04 01:26:19
+ * GFWList Last-Modified: 2024-08-14 19:07:05
  */
 
 var proxy = 'SOCKS5 127.0.0.1:1081';
@@ -3170,6 +3170,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?storm\\.mg",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?stoptibetcrisis\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?storify\\.com",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?storj\\.io",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?stoweboyd\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?straitstimes\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?straplessdildo\\.com",
@@ -3516,6 +3517,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?usacn\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?usaip\\.eu",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?uscnpm\\.org",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?uscardforum\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?usma\\.edu",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?ustibetcommittee\\.org",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?ustream\\.tv",
@@ -6986,7 +6988,6 @@ var rules = [
             "*myshare.url.com.tw/*",
             "*us.to*",
             "*.usaip.eu*",
-            "*dalailama.usc.edu*",
             "*.usocctn.com*",
             "*.ustream.tv*",
             "*usus.cc*",
