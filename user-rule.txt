@@ -6,6 +6,8 @@ sourceforge.net
 files.pythonhosted.org
 repo.anaconda.com
 gitlab.com
+translate.google.com
+translate.googleapis.com
 
 cnbeta.com.tw
 ! 不稳定
