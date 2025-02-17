@@ -18,7 +18,8 @@ var rules = [
             "*translate.google.com*",
             "*translate.googleapis.com*",
             "*cnbeta.com.tw*",
-            "*github.com*"
+            "*github.com*",
+            "*arxiv.org*"
         ]
     ],
     [
