@@ -10,5 +10,5 @@ translate.google.com
 translate.googleapis.com
 
 cnbeta.com.tw
-! 不稳定
 github.com
+arxiv.org
