@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * GFWList Last-Modified: 2025-02-18 06:24:21
+ * GFWList Last-Modified: 2025-02-22 16:48:53
  */
 
 var proxy = 'SOCKS5 127.0.0.1:1081';
@@ -229,6 +229,7 @@ var rules = [
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?wego\\.here\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?gamer-cds\\.cdn\\.hinet\\.net",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?gamer2-cds\\.cdn\\.hinet\\.net",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?grok\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?hmoegirl\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?hmvdigital\\.ca",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?hmvdigital\\.com",
@@ -1556,6 +1557,7 @@ var rules = [
             "^http://goagent\\.codeplex\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?codeshare\\.io",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?codeskulptor\\.org",
+            "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?cofacts\\.tw",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?conoha\\.jp",
             "^http://tosh\\.comedycentral\\.com",
             "^[\\w\\-]+:\\/+(?!\\/)(?:[^\\/]+\\.)?comefromchina\\.com",
