@@ -12,3 +12,4 @@ translate.googleapis.com
 cnbeta.com.tw
 github.com
 arxiv.org
+oaiusercontent.com
