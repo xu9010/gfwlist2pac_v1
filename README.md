@@ -4,5 +4,5 @@
 
 用户规则：user-rule.txt
 
-https://raw.githubusercontent.com/xu9010/gfwlist2pac/master/gfwlist_1081.pac
-https://raw.githubusercontent.com/xu9010/gfwlist2pac/master/gfwlist_7890.pac
+https://raw.githubusercontent.com/xu9010/gfwlist2pac_v1/master/gfwlist_1081.pac
+https://raw.githubusercontent.com/xu9010/gfwlist2pac_v1/master/gfwlist_7890.pac
