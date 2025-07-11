@@ -16,8 +16,8 @@ source env/bin/activate
 # (cd genpac;pip install .) # 新版genpac本地安装
 
 # 3.0rc1无法生成gfwlist，固定使用2.1.0版
-(cd genpac; git checkout 4826281; python setup.py install) # 2.1.0版
-# pip install genpac==2.1.0 # 备选在线安装
+# (cd genpac; git checkout 4826281; python setup.py install) # 2.1.0版
+pip install genpac==2.1.0 # 备选在线安装
 
 env/bin/genpac \
 	--format pac \
