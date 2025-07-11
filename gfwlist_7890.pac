@@ -1,7 +1,5 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
-    [
-        [],
         [],
         [
             "*ascii2d.net*",
