@@ -28,7 +28,7 @@ env/bin/genpac \
 	--user-rule-from user-rule.txt \
 	-o gfwlist_1081.pac
 # sed -e '3d' -i gfwlist_1081.pac
-sed -e '5d' -e '3d' -i gfwlist_1081.pac # 删除带无用日期的注释
+# sed -e '5d' -e '3d' -i gfwlist_1081.pac # 删除带无用日期的注释
 
 env/bin/genpac \
 	--format pac \
