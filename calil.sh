@@ -39,10 +39,11 @@ env/bin/genpac \
 	--user-rule-from user-rule.txt \
 	-o gfwlist_7890.pac
 # sed -e '3d' -i gfwlist_7890.pac
-sed -e '5d' -e '3d' -i gfwlist_7890.pac # 删除带无用日期的注释
+# sed -e '5d' -e '3d' -i gfwlist_7890.pac # 删除带无用日期的注释
 
 deactivate
 
-git add .
+#git add .
+git add gfwlist_1081.pac gfwlist_7890.pac
 git commit -m "[$(LANG=C date)]auto update"
 git push -f origin master
