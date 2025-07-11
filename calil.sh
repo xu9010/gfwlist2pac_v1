@@ -19,7 +19,7 @@ source env/bin/activate
 # (cd genpac; git checkout 4826281; python setup.py install) # 2.1.0版
 pip install genpac==2.1.0 # 备选在线安装
 
-env/bin/genpac \
+genpac \
 	--format pac \
 	--pac-proxy "SOCKS5 127.0.0.1:1081" \
 	--pac-precise \
