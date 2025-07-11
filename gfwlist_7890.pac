@@ -1,6 +1,16 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
+ * GFWList Last-Modified: 2025-03-07 10:20:58
+ */
+
+var proxy = 'SOCKS5 127.0.0.1:7890';
+var rules = [
+    [
+        [],
+        [],
+        [],
         [
+            "*ascii2d.net*",
             "*sourceforge.net*",
             "*files.pythonhosted.org*",
             "*repo.anaconda.com*",
